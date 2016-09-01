@@ -10,7 +10,7 @@ $(function(){
 
 	      // The URL to make the request to.
 	      //url: 'https://vandolphreyes29.github.io/',
-		  url: 'http://jsbeautifier.org/',
+		  url: 'https://jsbeautifier.org/',
 
 	      // The 'contentType' property sets the 'Content-Type' header.
 	      // The JQuery default for this property is
@@ -51,7 +51,7 @@ $(function(){
   				'border' : '1px solid red',
   				'padding' : '10px'
   			});
-  	        $('.output').html("No 'Access-Control-Allow-Origin' header is present on the requested resource. Please check console also.");
+  	        $('.output').html("Please error from console.");
 	        // Here's where you handle an error response.
 	        // Note that if the error was due to a CORS issue,
 	        // this function will still fire, but there won't be any additional
