@@ -46,8 +46,11 @@
 <body>
 
 	<p>Testing HTML CORS</p>
-
-	<input type="button" name="name" value="SHOW DATA" class="show-data" >
+    FETCH title of clicked URL
+    <br><br>
+	<input type="button" name="name" value="https://vandolphreyes.github.io/" class="show-data" onclick="makeCorsRequest('https://vandolphreyes.github.io/');">
+    <input type="button" name="name" value="http://www.outbounders.com/" class="show-data" onclick="makeCorsRequest('http://www.outbounders.com/');">
+    <input type="button" name="name" value="http://swu3dcampustour.16mb.com/cors/" class="show-data" onclick="makeCorsRequest('http://swu3dcampustour.16mb.com/cors/');">
 
 	<p class="output"></p>
 
