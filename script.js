@@ -10,7 +10,7 @@ $(function(){
 
 	      // The URL to make the request to.
 	      //url: 'https://vandolphreyes29.github.io/',
-		  url: 'http://swu3dcampustour.16mb.com/cors/',
+		  url: 'https://vandolphreyes.github.io/',
 
 	      // The 'contentType' property sets the 'Content-Type' header.
 	      // The JQuery default for this property is
